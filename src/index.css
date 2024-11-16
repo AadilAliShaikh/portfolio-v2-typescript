@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+.overlay {
+  @apply absolute inset-0 bg-black/40 rounded-3xl;
+}
+
+.content-wrapper {
+  @apply relative z-10;
+}
+
+@keyframes tileHover {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
