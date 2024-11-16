@@ -99,6 +99,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <BentoTile 
             backgroundUrl="https://images.unsplash.com/photo-1635830625698-3b9bd74671ca?auto=format&fit=crop&w=1200"
+            hoverSoundUrl="/hover2.mp3"
             colSpan
           >
             <div className="p-8 h-full flex items-center">
